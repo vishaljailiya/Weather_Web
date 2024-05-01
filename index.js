@@ -37,12 +37,12 @@ const getDateTime = (dt) => {
   return formatter.format(curDate);
 };
 
-let city = "pune";
+let city = "sawai madhopur";
 
 // search functionality
 citySearch.addEventListener("submit", (e) => {
   e.preventDefault();
-
+  
   let cityName = document.querySelector(".city_name");
   console.log(cityName.value);
   city = cityName.value;
